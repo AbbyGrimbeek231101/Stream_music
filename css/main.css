@@ -1,0 +1,225 @@
+html,body,h1{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20%;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    float: left;
+}
+
+section{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.quarter{
+    height: 277px;
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* allow the images to wrap onto multiple lines if needed */
+    justify-content: space-between; /* adjust the spacing between the images */
+    align-items: center; /* center the images vertically */
+  }
+.col-3 {
+    flex-basis: calc(25% - 16px); /* adjust the width of each image container */
+    margin-bottom: 32px; /* add some space between each image container */
+    width: 277px;
+    height: 277px;
+    text-align: center;
+    margin: 1%;
+    float: left;
+    color: white;
+
+  }
+
+
+.logo{
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+
+.nav-con{
+    width: 600px;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+}
+
+.nav-con, ul{
+    list-style: none;
+}
+
+.nav-con li{
+    float: right;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+}
+
+.nav-con li:hover{
+    background-color: #2b2b2b;
+    color: white;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #2b2b2b !important;
+    color: white;
+}
+
+.image-1{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/take_it_back.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.image-2{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/trustfall.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-3{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/emails_i_cant_send.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-4{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/amelia.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-5{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/Chaasing_Shadows.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-6{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/Diamonds_and_Dancefloors.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-7{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/Fake_a_smile.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-8{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/sos.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-9{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/Hotel_walls.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-10{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/Calm_down.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-11{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/Last_call.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-12{
+    width: 277px;
+    height: 277px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('../assets/flowers.jpg');
+    background-position: center;
+    background-size: cover;
+}
